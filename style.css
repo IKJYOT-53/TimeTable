@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --clr-money-green: #06a658;
+  --clr-light-green: #11f285;
+  --clr-lighter-green: #2bff99;
+  --clr-dark-red: #a61400;
+  --clr-light-red: #f22c11;
+}
+h1 {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 3rem;
+}
+.table {
+  display: flex;
+}
+table {
+  width: 100vw;
+  height: 80vh;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.days {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.joined-left {
+  border: 1px solid black;
+  border-left: none;
+  text-align: start;
+  border-radius: 0 5px 5px 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+.joined-right {
+  border: 1px solid black;
+  border-right: none;
+  text-align: end;
+  border-radius: 5px 0 0 5px;
+  padding-right: 0;
+  margin-right: 0;
+}
+table th {
+  border: 1px solid lightgreen;
+  padding: 1rem;
+  color: black;
+  position: sticky;
+}
+table td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+table tr {
+  margin: 1rem;
+}
+
+.current {
+  background-color: lightgrey;
+  color: black;
+  border-radius: 1rem;
+}
+.ongoing {
+  background-color: lightcoral;
+  color: white;
+  border-radius: 0.2rem;
+}
+.date-time {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+  padding: 1rem;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  height: 20vh;
+}
+.wrapper label {
+  font-size: 30px;
+  margin: 1rem;
+  font-family: sans-serif;
+}
+.wrapper select {
+  font-size: 20px;
+
+  padding: 0 1rem;
+}
