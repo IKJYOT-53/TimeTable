@@ -1,4 +1,6 @@
 ## Simple TimeTable
 
 Current TimeTable with current days' classes highlighted
-[Link]()
+
+
+[Link](https://ikjyot-53.github.io/TimeTable/)
