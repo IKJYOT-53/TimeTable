@@ -10,13 +10,13 @@ let c = new Date();
 days[c.getDay()-1].forEach(cell =>{
     cell.classList.add("current");
 })
-
+const currentClassSpan = document.querySelector('.current-class-update');
 setInterval(function () {
     let d = new Date();
     if(8-d.getHours()>-7){
         const period = Math.abs(8-d.getHours());
-        console.log(period)
         days[c.getDay()-1][period].classList.add("ongoing");
+        currentClassSpan.innerText=days[c.getDay()-1][period].innerText;
     }
     
     dateTime.innerText = d.getDate() + "/" + (d.getMonth()+1) + "/"+d.getFullYear();
