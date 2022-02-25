@@ -31,6 +31,16 @@ table {
   justify-content: center;
   flex-direction: column;
 }
+.current {
+  background-color: lightgrey;
+  color: black;
+  border-radius: 0.3rem;
+}
+.ongoing {
+  background-color: lightcoral;
+  color: white;
+  border-radius: 0.2rem;
+}
 .joined-left {
   border: 1px solid black;
   border-left: none;
@@ -64,11 +74,6 @@ table tr {
   margin: 1rem;
 }
 
-.current {
-  background-color: lightgrey;
-  color: black;
-  border-radius: 1rem;
-}
 .ongoing {
   background-color: lightcoral;
   color: white;
